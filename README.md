@@ -1,9 +1,14 @@
 
-Overview
+### Overview
+This project demonstrates the design and implementation of a robust ETL (Extract, Transform, Load) pipeline for extracting weather data from an external API, processing it, and storing it in a database for analysis and reporting. The pipeline is orchestrated using Apache Airflow, leveraging its powerful DAG (Directed Acyclic Graph) capabilities for scheduling and automation.
 
-Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
+### Tools and Technologies
+- Apache Airflow: Workflow orchestration and task automation.
+- Weather API: Any public or private weather API to fetch data.
+- Python: For data extraction, transformation, and Airflow task scripts.
+- Database: PostgreSQL for data storage.
 
-Project Contents
+### Project Contents
 
 Your Astro project contains the following files and folders:
 
@@ -35,11 +40,25 @@ Note: Running 'astro dev start' will start your project with the Airflow Webserv
 
 You should also be able to access your Postgres Database at 'localhost:5432/postgres'.
 
-Deploy Your Project to Astronomer
+### Airflow
 
-If you have an Astronomer account, pushing code to a Deployment on Astronomer is simple. For deploying instructions, refer to Astronomer documentation: https://www.astronomer.io/docs/astro/deploy-code/
+- DAGs-Dashboard
 
-Contact
+![DAGs-Dashboard](Screenshot_dashboard.png)
 
-The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
 
+- ETl-Dashboard
+
+![etl-Dashboard](https://raw.githubusercontent.com/vamshigaddi/End-To-End-ETL-Pipeline-Using-Airflow/refs/heads/main/Screenshot%20_etl_dashboard.png)
+
+- ETl-Graph
+- 
+![etl-graph](https://raw.githubusercontent.com/vamshigaddi/End-To-End-ETL-Pipeline-Using-Airflow/refs/heads/main/Screenshot%20-etl-graph.png)
+
+- weather-data
+
+![weather-data](https://github.com/vamshigaddi/End-To-End-ETL-Pipeline-Using-Airflow/blob/main/Screenshot%20-weather-data.png)
+
+- Postgresql
+
+![Postgressql-data](https://github.com/vamshigaddi/End-To-End-ETL-Pipeline-Using-Airflow/blob/main/Screenshot_Data_storage.png)
